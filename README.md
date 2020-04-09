@@ -2,14 +2,19 @@
 
 
 
-to run the client side:
--cd to client
+##to run the client side:
+cd to client then write
+```
 -npm install
+```
 -write the host you're trying to run the  server on then npm start as follows 
-   - REACT_APP_URL="http://localhost:3003" npm start
+```
+- REACT_APP_URL="http://localhost:3003" npm start
+```
 
-
-to run the server:
--cd to api
+##to run the server:
+-cd to api then write
+```
 -npm install
-- npm run dev
+-npm run dev
+```
