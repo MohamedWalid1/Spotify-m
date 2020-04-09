@@ -1,0 +1,355 @@
+@import "~antd/dist/antd.css";
+
+.main-nav {
+  background-color: inherit;
+  list-style: none;
+  display: flex;
+}
+
+.prev {
+  border-radius: 50%;
+  padding: 8px;
+  font-weight: 900;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.7);
+  text-decoration: none;
+  float: left;
+}
+.prev:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.next {
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 25px;
+  font-weight: 900;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.7);
+  text-decoration: none;
+  float: left;
+}
+.next:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  padding-top: 12px;
+}
+#playlist-icon {
+  margin-bottom: 8px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+#playlist-icon:focus {
+  background-color: black;
+  border-radius: 5px;
+}
+#prodcast-icon:focus {
+  background-color: black;
+  border-radius: 5px;
+}
+#albums-icon:focus {
+  background-color: black;
+  border-radius: 5px;
+}
+#artists-icon:focus {
+  background-color: black;
+  border-radius: 5px;
+}
+
+#prodcast-icon {
+  margin-bottom: 8px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+
+#artists-icon {
+  margin-bottom: 8px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+
+#albums-icon {
+  margin-bottom: 8px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+
+#upgrade-icon {
+  background-color: inherit;
+  color: white;
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 50px;
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.upgrade {
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#login-icon {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 50px;
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 900;
+}
+#signUp-icon {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 50px;
+  border-radius: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+#upgrade-icon:hover {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  text-decoration: none;
+}
+#signUp-icon:hover {
+  background-color: rgb(0, 0, 0);
+  border: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-decoration: none;
+}
+#login-icon:hover {
+  background-color: rgb(255, 255, 255);
+  border: rgba(255, 255, 255, 0.9);
+  color: black;
+  text-decoration: none;
+}
+
+/****************************** SEARCH *************************************/
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 0px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.search_input {
+  color: black;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input {
+  padding: 0 10px;
+  width: 300px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon {
+  background: white;
+  color: black;
+}
+
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: black;
+  text-decoration: none;
+}
+
+/******************************  Username  *********************************/
+.dropdown {
+  margin-left: auto;
+  margin-top: 4px;
+  margin-right: 10px;
+  padding-left: 2px;
+  font-size: 12px;
+}
+
+.dropdown .dropbtn {
+  border-radius: 50px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: white;
+  line-height: 0px;
+  padding: 4px;
+  width: 180px;
+  height: 35px;
+  background-color: rgb(0, 0, 0, 0.7);
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(54, 53, 53);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(39, 39, 39);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(54, 54, 54);
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:focus .dropdown-content {
+  background-color: none;
+}
+.show {
+  display: block;
+}
+/************************    Login & Signup   *****************************/
+li .btn-login {
+  background-color: black;
+  color: white;
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  border-radius: 40px/40px;
+  height: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 14px;
+  font-weight: 900;
+  transition: all 0.3s ease 0s;
+}
+
+li .btn-login:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.75);
+  border: 2px solid rgba(0, 0, 0, 0.75);
+}
+li .btn-signUp {
+  background-color: white;
+  color: black;
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  border-radius: 40px/40px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 12px;
+  font-weight: 900;
+  transition: all 0.3s ease 0s;
+}
+
+li .btn-signUp:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.whatsNewNtn {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 35px;
+  border-radius: 20px;
+  border: solid #ffffff;
+  margin-right: 16px;
+  height: 40px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 900;
+  margin-left: 511px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.whatsNewNtn:hover {
+  background-color: #1b1b1b;
+}
+
+.whatsNewNtn .num {
+  position: absolute;
+  top: 0;
+  right: -5;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ff2c2c;
+  color: #ffffff;
+  line-height: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}

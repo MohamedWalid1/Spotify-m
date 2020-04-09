@@ -1,0 +1,53 @@
+#follow-btn {
+    background-color: #1db954;
+    color: rgb(255, 255, 255);
+    font-family: Raleway-SemiBold;
+    letter-spacing: 1px;
+    line-height: 35px;
+    border-radius: 40px;
+    border: solid #1db954;
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 0px;
+    margin-right: 16px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 0vh;
+    margin-top: -15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  #follow-btn:hover {
+    color: #fff;
+    background: #18d85b;
+    border: 2px solid #1db954;
+  }
+
+#unfollow-btn {
+    background-color: rgb(0, 0, 0);
+    color: #1db954;
+    font-family: Raleway-SemiBold;
+    letter-spacing: 1px;
+    line-height: 35px;
+    border-radius: 40px;
+    border: solid rgba(255, 255, 255, 0.9);
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 3px;
+    margin-right: 16px;
+    margin-left: 0vh;
+    margin-top: -15px;
+    height: 40px;
+    font-size: 12px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 900;
+  }
+  
+  #unfollow-btn:hover {
+    color: #1db954;
+    background: black;
+    border: 2px solid white;
+  }

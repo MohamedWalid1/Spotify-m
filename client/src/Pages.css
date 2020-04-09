@@ -1,0 +1,245 @@
+/****** PAGES ********/
+
+.home-page {
+  text-align: center;
+  padding-top: 100px;
+  color: mediumseagreen;
+  background-color: inherit;
+}
+
+.search-page {
+  text-align: center;
+  padding-top: 100px;
+  color: deeppink;
+  background-color: inherit;
+}
+.library-page {
+  text-align: center;
+  padding-top: 100px;
+  color: aquamarine;
+  background-color: inherit;
+}
+/********** PRODCAST PAGE ***********/
+.podcasts-page {
+  text-align: center;
+  background-color: inherit;
+}
+.podcasts-page #podcast {
+  color: moccasin;
+  padding-top: 120px;
+  padding-left: 100px;
+}
+.podcasts-page #podcast1 {
+  padding-top: 100px;
+  padding-left: 120px;
+  color: moccasin;
+  font-weight: bold;
+}
+.podcasts-page #podcast2 {
+  padding-top: 30px;
+  padding-left: 120px;
+  color: moccasin;
+}
+
+#podcast-icon {
+  background-color: moccasin;
+  color: rgb(0, 0, 0);
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 30px;
+  border-radius: 40px;
+  border: 2px solid moccasin;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 25px;
+  margin-left: 120px;
+}
+
+#podcast-icon:hover {
+  background-color: moccasin;
+  border: moccasin;
+  color: black;
+  text-decoration: none;
+}
+
+/************* PLAYLISTS PAGE *************/
+.playlists-page {
+  text-align: center;
+  background-color: inherit;
+}
+.playlists-page #playlists {
+  color: white;
+  padding-top: 120px;
+  padding-left: 100px;
+}
+.playlists-page #playlists1 {
+  padding-top: 90px;
+  padding-left: 120px;
+  color: white;
+  font-weight: bold;
+}
+.playlists-page #playlists2 {
+  padding-top: 30px;
+  padding-left: 120px;
+  color: white;
+}
+
+#playlists-icon {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 30px;
+  border-radius: 40px;
+  border: 2px solid white;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+#playlists-icon:hover {
+  background-color: white;
+  border: white;
+  color: black;
+  text-decoration: none;
+}
+
+/*******************************/
+.head2 {
+  text-align: center;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+.head2 #prod-icon {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 50px;
+  border-radius: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 900;
+}
+#prod-icon:hover {
+  text-decoration: none;
+}
+.artists-page {
+  background-color: inherit;
+  text-align: center;
+  background-color: inherit;
+}
+
+.welcome {
+  padding-top: 100px;
+  color: violet;
+}
+
+/**************  ALBUMS PAGE *************/
+.albums-page {
+  text-align: center;
+  background-color: inherit;
+}
+.albums-page #album {
+  color: burlywood;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.albums-page #album1 {
+  padding-top: 100px;
+  padding-left: 120px;
+  color: burlywood;
+  font-weight: bold;
+}
+.albums-page #album2 {
+  padding-top: 30px;
+  padding-left: 120px;
+  color: burlywood;
+}
+
+#discover-icon {
+  background-color: burlywood;
+  color: rgb(0, 0, 0);
+  font-family: Raleway-SemiBold;
+  letter-spacing: 1px;
+  line-height: 30px;
+  border-radius: 40px;
+  border: 2px solid burlywood;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 25px;
+  margin-left: 120px;
+}
+
+#discover-icon:hover {
+  background-color: burlywood;
+  border: burlywood;
+  color: black;
+  text-decoration: none;
+}
+
+.text {
+  margin: 0px 24px 12px;
+  padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.likedSongs-page {
+  background-image: linear-gradient(rgb(37, 0, 80), black);
+  height: 10000px;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+.login-page {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  background-color: inherit;
+}
+
+.account-page {
+  text-align: center;
+  padding-top: 100px;
+  color: rgb(255, 255, 255);
+  background-color: inherit;
+}
+
+/********************** ERROR Page **************************/
+
+.Error-page {
+  padding-top: 0px;
+  text-align: left;
+  background-color: white;
+  height: 730px;
+}
+
+#err {
+  color: rgb(255, 0, 51);
+}
+#msg {
+  padding-top: 0px;
+
+  color: rgb(255, 0, 51);
+}

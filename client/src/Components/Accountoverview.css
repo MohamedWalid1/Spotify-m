@@ -1,0 +1,134 @@
+
+.info{
+  font-size: 16px;
+    line-height: 1.5;
+  text-align: center;
+  background-color: white;
+  
+}
+button {
+  color: grey;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: 1px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button1 {
+  padding-top: 7px;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: white;
+
+  text-transform: uppercase;
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  color: grey;
+  border: 2px solid grey;
+}
+.button1:hover {
+  background-color: grey;
+  color: white;
+}
+.labels{
+  color:grey;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 30-px;
+}
+.data{
+  color: black;
+  font-style: italic;
+  font-size: 90-px;
+}
+h1{
+  color: black;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size:30-px;
+}
+h2{
+  color: black;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20-px;
+}
+.id{
+  background:#af2896;;
+}
+
+
+
+
+
+.info{
+  font-size: 16px;
+    line-height: 1.5;
+  text-align: center;
+  background-color: white;
+  
+}
+button {
+  color: grey;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: 1px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button1 {
+  padding-top: 7px;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: white;
+
+  text-transform: uppercase;
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  color: grey;
+  border: 2px solid grey;
+}
+.button1:hover {
+  background-color: grey;
+  color: white;
+}
+.labels{
+  color:grey;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 30-px;
+}
+.data{
+  color: black;
+  font-style: italic;
+  font-size: 90-px;
+}
+h1{
+  color: black;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size:30-px;
+}
+h2{
+  color: black;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20-px;
+}
+.id{
+  background:#af2896;;
+}
+
+
+
+

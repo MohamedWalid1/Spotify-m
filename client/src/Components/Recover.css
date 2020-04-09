@@ -1,0 +1,145 @@
+.heading{
+    color:#1DB954;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+ 
+.statment{
+    color:white;
+    padding-left: 50px;
+    background-color: #509BF5;
+    border: 10px solid  #509BF5;
+  
+}
+.styling{
+    font-size: 18 px;
+    padding-left: 50px;
+    color:#1DB954;
+
+}
+.ques{
+    font-size: 12 px;
+    padding-left: 50px;
+    color: black;
+}
+.radio {
+    padding-right: 40px;
+    border: 0px;
+    width: 20%;
+    height: 1em;
+}
+
+
+#forlabel {
+    padding-left: 10px;
+    color: black; 
+}
+.tableheading{
+    padding-left: 20px;
+    color: black; 
+    font-size: 12px;
+    padding-top:10px ;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+    color:grey;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  .restoring {
+      color:#1DB954;
+  }
+
+  .restor {
+      background-color:transparent;
+      color:grey;
+      width: 0px;
+      height: 0px;
+      padding:0;
+      border:none;
+  }
+
+  .refresh{
+    background-color:transparent;
+    color:black;
+    width: 0px;
+    height: 0px;
+    padding:0;
+    border:none;
+  }
+.heading{
+    color:#1DB954;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+ 
+.statment{
+    color:white;
+    padding-left: 50px;
+    background-color: #509BF5;
+    border: 10px solid  #509BF5;
+  
+}
+.styling{
+    font-size: 18 px;
+    padding-left: 50px;
+    color:#1DB954;
+
+}
+.ques{
+    font-size: 12 px;
+    padding-left: 50px;
+    color: black;
+}
+.radio {
+    padding-right: 40px;
+    border: 0px;
+    width: 20%;
+    height: 1em;
+}
+
+
+#forlabel {
+    padding-left: 10px;
+    color: black; 
+}
+.tableheading{
+    padding-left: 20px;
+    color: black; 
+    font-size: 12px;
+    padding-top:10px ;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+    color:grey;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  .restoring {
+      color:#1DB954;
+  }
+
+  .restor {
+      background-color:transparent;
+      color:grey;
+      width: 0px;
+      height: 0px;
+      padding:0;
+      border:none;
+  }

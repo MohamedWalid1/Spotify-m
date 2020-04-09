@@ -1,0 +1,492 @@
+.firstBackground {
+  background : rgb(80,155,245) url(https://campaigns-test.scdn.co/images/premium_dancer.png) no-repeat bottom right/450px;
+  background-size: 50%;
+  height: 100vh;
+  margin-bottom:-150px;
+  width:100vw;
+  
+  
+  /* background: rgb(80, 155, 245)
+  url(https://campaigns-test.scdn.co/images/premium_dancer.png) no-repeat
+    bottom right/450px;
+  background-size: 90%;
+  min-height: 150vh;
+  width: 85vw; */
+}
+
+
+
+.secondBackground {
+  background-color: white;
+  background-size: 90%;
+  height: 120vh;
+  width:100vw;
+}
+.idMKBf {
+  overflow: auto;
+}
+.jDStqx {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  padding: 35px 15px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .jDStqx {
+    width: 750px;
+    padding: 75px 15px;
+  }
+}
+@media (min-width: 992px) {
+  .jDStqx {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .jDStqx {
+    width: 1170px;
+  }
+}
+@media (min-width: 768px) {
+  .joRmZW {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+.foTIcp {
+  width: 100%;
+  padding: 20px 32px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .foTIcp {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    text-align: left; */
+  }
+  .foTIcp:first-child {
+    margin-right: 20px;
+  }
+}
+.iRmvtI {
+  background-color: white;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) {
+  .iRmvtI {
+    padding: 30px 20px;
+  }
+}
+.fiLspg {
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 0%;
+  margin-left : 0%;
+  margin: 0%;
+  line-height: 1.4;
+}
+.UsCqL {
+  margin: 8px 0px 30px;
+  font-size: 32px;
+  font-weight: 900;
+  direction: ltr;
+}
+.dlWkXV {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+.fPuNfw {
+  color: #919191;
+  font-size: 12px;
+  margin-top: -23px;
+  margin-bottom: 0;
+  height: 29px;
+}
+
+.jXZCdJ {
+  border-top: 1px solid #d9dadc;
+  border-bottom: 1px solid #d9dadc;
+  padding: 34px 0 26px;
+  
+}
+.bZgILq {
+  padding-bottom: 7px;
+  line-height: 22px;
+  list-style: none;
+  color : black;
+  direction: ltr;
+}
+.bZgILq:before {
+  padding: 0 10px 0 0;
+  font-size: 16px;
+  content: "\2713";
+  font-weight: 700;
+  color: #000;
+}
+.Additional {
+  margin-left: 5%;
+}
+
+.ezXcOn {
+  width: 100%;
+}
+
+.eifmih {
+  background-color: transparent;
+  border: 0;
+  border-radius: 500px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  -webkit-transition-duration: 33ms;
+  transition-duration: 33ms;
+  -webkit-transition-property: background-color, border-color, color, box-shadow,
+    filter, -webkit-transform;
+  -webkit-transition-property: background-color, border-color, color, box-shadow,
+    filter, transform;
+  transition-property: background-color, border-color, color, box-shadow, filter,
+    transform;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  padding: 17px 5px;
+  background-color: #1db954;
+  color: #ffffff;
+}
+
+.eifmih:hover:not(:focus):not(:disabled) {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  background-color: #1ed760;
+  color: #ffffff;
+}
+.eifmih:active,
+.eifmih:active:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: #14833b;
+  box-shadow: none;
+  color: #bdbdbd;
+}
+.eifmih:focus {
+  color: #eeeeee;
+  background-color: #14833b;
+}
+.eifmih[disabled],
+fieldset[disabled] .eifmih {
+  background-color: #1db954;
+  color: #ffffff;
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+.eifmih:focus {
+  outline: none;
+}
+.hzrJtj {
+  color: #c1c3c6;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.hzrJtj a {
+  color: #c1c3c6;
+}
+
+.cgDIyw {
+  color: #fff;
+  direction: ltr;
+  background-color: #509bf5;
+}
+@media (min-width: 480px) {
+  .cgDIyw {
+    background-color: #509bf5;
+  }
+}
+@media (min-width: 992px) {
+  .cgDIyw {
+    background: url(https://campaigns-test.scdn.co/images/premium_dancer.png)
+      no-repeat bottom right/450px;
+    background-color: #509bf5;
+  }
+}
+@media (min-width: 1200px) {
+}
+.cgDIyw a {
+  color: #fff;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.firstHeader {
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-top: 50 px;
+  margin-bottom: 10 px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(40px + 6vmin);
+  font-weight: 600;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.secondHeader {
+  color: white;
+  align-items: left;
+  justify-content: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: -45%;
+  padding-left: -50%;
+  display: flex;
+  flex-direction: column;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+.thirdHeader {
+  color: white;
+  margin-left: 5%;
+}
+
+.anchorTag {
+  color: white;
+}
+
+.premiumHeader {
+  color: black;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 300%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+/* sc-component-id: sc-jqCOkK */
+@media (min-width: 768px) {
+  .NQKvj {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1200px) {
+  .NQKvj {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+/* sc-component-id: sc-fYxtnH */
+.OPfqc {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .OPfqc {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .OPfqc {
+    /*vertical-align:top;*/
+    display: block;
+    width: 270px;
+  }
+}
+
+.lmgtMj {
+  display: inline-block;
+  margin-right: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background: url(https://campaigns.scdn.co/images/benefit-1.png) no-repeat;
+  background-size: contain;
+  width: 142px;
+  height: 142px;
+}
+@media (min-width: 1200px) {
+  .lmgtMj {
+    display: block;
+    margin: 0 auto 40px auto;
+    margin: 0 auto 40px auto;
+  }
+}
+
+.ivnBGW {
+  display: inline-block;
+  margin-right: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background: url(https://campaigns.scdn.co/images/benefit-2.png) no-repeat;
+  background-size: contain;
+  width: 142px;
+  height: 142px;
+}
+@media (min-width: 1200px) {
+  .ivnBGW {
+    display: block;
+    margin: 0 auto 40px auto;
+    margin: 0 auto 40px auto;
+  }
+}
+
+.KQlQB {
+  display: inline-block;
+  margin-right: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background: url(https://campaigns.scdn.co/images/benefit-3.png) no-repeat;
+  background-size: contain;
+  width: 142px;
+  height: 142px;
+}
+@media (min-width: 1200px) {
+  .KQlQB {
+    display: block;
+    margin: 0 auto 40px auto;
+    margin: 0 auto 40px auto;
+  }
+}
+
+.iAcIjI {
+  display: inline-block;
+  margin-right: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background: url(https://campaigns.scdn.co/images/benefit-4.png) no-repeat;
+  background-size: contain;
+  width: 142px;
+  height: 142px;
+}
+@media (min-width: 1200px) {
+  .iAcIjI {
+    display: block;
+    margin: 0 auto 40px auto;
+    margin: 0 auto 40px auto;
+  }
+}
+
+.ftKOfM {
+  display: inline-block;
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+@media (min-width: 1200px) {
+  .ftKOfM {
+    display: block;
+    text-align: center;
+  }
+}
+.cUlOMl {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 21px;
+  color: #000;
+}
+
+.fxERSB {
+  line-height: 1.5;
+  font-size: 16px;
+  color: black;
+}
+.fxERSB a {
+  color: #000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  .fxERSB {
+    width: 85%;
+  }
+}
+@media (min-width: 1200px) {
+  .fxERSB {
+    margin: 0 auto;
+  }
+}
+
+.roundButton {
+  letter-spacing: 10%;
+  padding: 15px 40px 15px 40px;
+  cursor: pointer;
+  color: white;
+  border-radius: 40px/30px;
+  background-color: rgba(23, 192, 23, 0.829);
+  border-color: transparent;
+  font-size: 100%;
+  font-weight: 10;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-display: center;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.roundButton:hover {
+  background-color: yellowgreen;
+}
+
+.roundButton:active {
+  background-color: darkslategray;
+}

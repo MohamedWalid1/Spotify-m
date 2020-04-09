@@ -1,0 +1,125 @@
+.side {
+    top: 0;
+    position: fixed;
+    width: 15vw;
+    height: 100vh;
+    min-width: 120px;
+    background-color: black;
+    color: aliceblue;
+    list-style: none;
+}
+
+/********* SIDEBAR ********/
+
+.side {
+list-style: none;
+text-decoration: none;
+}
+
+.logo {
+margin-left: 40px;
+margin-top: 20px;
+}
+.side #home-icon {
+margin-top: 30px;
+margin-bottom: 8px;
+padding: 8px;
+margin-left: 12px;
+margin-right: 12px;
+color: #b3b3b3;
+font-weight: bold;
+text-decoration: none;
+display: flex;
+}
+
+#home-icon:focus {
+background-color: rgb(39, 39, 39);
+color: white;
+}
+
+#home-icon:hover {
+background-color: none;
+color: white;
+}
+.side #search-icon {
+margin-top: 0px;
+margin-bottom: 8px;
+padding: 8px;
+margin-left: 12px;
+margin-right: 12px;
+color: #b3b3b3;
+font-weight: bold;
+text-decoration: none;
+display: flex;
+}
+
+#search-icon:focus {
+background-color: rgb(39, 39, 39);
+color: white;
+}
+#search-icon:hover {
+background-color: none;
+color: white;
+}
+
+.side #lib-icon {
+margin-top: 0px;
+margin-bottom: 8px;
+padding: 8px;
+margin-left: 12px;
+margin-right: 12px;
+color: #b3b3b3;
+font-weight: bold;
+text-decoration: none;
+display: flex;
+}
+
+#lib-icon:focus {
+background-color: rgb(39, 39, 39);
+color: white;
+}
+#lib-icon:hover {
+background-color: none;
+color: white;
+}
+.side #create-icon {
+margin-top: 0px;
+margin-bottom: 8px;
+padding: 8px;
+margin-left: 12px;
+margin-right: 12px;
+color: #b3b3b3;
+font-weight: bold;
+text-decoration: none;
+display: flex;
+}
+
+#create-icon:focus {
+background-color: rgb(39, 39, 39);
+color: white;
+}
+#create-icon:hover {
+background-color: none;
+color: white;
+}
+
+.side #liked-icon {
+margin-top: 0px;
+margin-bottom: 8px;
+padding: 8px;
+margin-left: 12px;
+margin-right: 12px;
+color: #b3b3b3;
+font-weight: bold;
+text-decoration: none;
+display: flex;
+}
+
+#liked-icon:focus {
+background-color: rgb(39, 39, 39);
+color: white;
+}
+#liked-icon:hover {
+background-color: none;
+color: white;
+}

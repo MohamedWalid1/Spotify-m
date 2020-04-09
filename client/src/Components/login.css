@@ -1,0 +1,280 @@
+h3 {
+  color: black;
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16-px;
+}
+#loginForm {
+  background-color: white;
+  height: 645px;
+}
+.input {
+  display: inline-block;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  padding-top: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #1ed760;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  color: white;
+}
+.btn:hover {
+  background-color: rgb(233, 221, 221);
+  color: black;
+}
+
+.btn2 {
+  width: 350px;
+  height: 50px;
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 500px;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #3b5998;
+  text-transform: uppercase;
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  color: white;
+  border: 2px solid transparent;
+}
+.btn2:hover {
+  background-color: transparent;
+  background-color: #506ba5;
+  color: white;
+}
+
+.btn3 {
+  width: 350px;
+  height: 50px;
+  padding-top: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 500px;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: white;
+
+  text-transform: uppercase;
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  color: grey;
+  border: 2px solid grey;
+}
+.btn3:hover {
+  background-color: grey;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 30px;
+  padding: 6px 12px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9dadc;
+  border-radius: 0;
+}
+
+.control {
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  display: block;
+  max-width: 100%;
+  width: 190px;
+  height: 55px;
+}
+
+.hyperLink {
+  color: #1ed760;
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16-px;
+  display: inline-block;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h4 {
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#forgot {
+  height: 640px;
+}
+h3 {
+  color: black;
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16-px;
+}
+#loginForm {
+  background-color: white;
+  height: 645px;
+}
+.input {
+  display: inline-block;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  padding-top: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #1ed760;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  color: white;
+}
+.btn:hover {
+  background-color: rgb(233, 221, 221);
+  color: black;
+}
+
+.btn2 {
+  width: 350px;
+  height: 50px;
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 500px;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #3b5998;
+  text-transform: uppercase;
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  color: white;
+  border: 2px solid transparent;
+}
+.btn2:hover {
+  background-color: transparent;
+  background-color: #506ba5;
+  color: white;
+}
+
+.btn3 {
+  width: 350px;
+  height: 50px;
+  padding-top: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 500px;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: white;
+
+  text-transform: uppercase;
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 30px;
+  color: grey;
+  border: 2px solid grey;
+}
+.btn3:hover {
+  background-color: grey;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 30px;
+  padding: 6px 12px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9dadc;
+  border-radius: 0;
+}
+
+.control {
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  display: block;
+  max-width: 100%;
+  width: 190px;
+  height: 55px;
+}
+
+.hyperLink {
+  color: #1ed760;
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16-px;
+  display: inline-block;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h4 {
+  text-align: center;
+  font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#forgot {
+  height: 640px;
+}

@@ -1,0 +1,57 @@
+.App {
+  align-content: center;
+}
+
+.PagesLayout {
+  display: grid;
+}
+
+.FullPage{
+  grid-column: 6/6;
+  grid-row: 10/10;
+}
+
+.ContentLayout {
+  grid-column: 2/6;
+  grid-row: 2/10;
+  margin-top: -20vh;
+  width: 85vw;
+  height: auto;
+}
+.SideLayout {
+  grid-row: 1/6;
+  grid-column: 1/2;
+  width: 15vw; /*15*/
+  height: 100vh;
+  min-width: 120px;/*120*/
+}
+.NavLayout {
+  position: fixed;
+  left: 15%;
+  grid-column: 2/6;
+  grid-row: 1/2;
+  width: 85vw;
+  height: 10vh;
+  z-index: 10;
+  background-color: transparent;
+  color: white;
+  top: 0;
+}
+
+.Songbarlayout{
+  position: fixed;
+  margin-top: 90vh;
+  left: 15%;
+  grid-column: 1/6;
+  grid-row: 10/12;
+  width: 100vw;
+  height: 10vh;
+  z-index: 10;
+  background-color: #282828;
+  color: white;
+  
+}
+
+.blue {
+  background-image: linear-gradient(rgb(15, 15, 15), black);
+}
