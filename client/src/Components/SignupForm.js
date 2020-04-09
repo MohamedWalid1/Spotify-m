@@ -98,6 +98,7 @@ componentDidMount(){
       
  
   const aa= process.env.REACT_APP_URL + "/users/signUp";
+  console.log(process.env)
   console.log(aa) //for debugging =abm
 
   //let data=this.state.datatosend;
@@ -110,6 +111,7 @@ componentDidMount(){
     'gender':this.state.gender,
     'product' :this.state.product
   }
+  console.log(data)
   fetch(aa,{
     method:'POST',
     headers:{

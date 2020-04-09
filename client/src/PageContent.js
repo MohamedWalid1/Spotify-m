@@ -36,8 +36,144 @@ class PageContent extends Component {
     this.props.setPremiumContentHeight("0")
 
 
+    if (window.location.href === process.env.REACT_APP_CLIENT_URL+ "/Home")
+      return (
+        <div>
+          <HomeContent />
+        </div>
+      );
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/login")
+    {     
+      return <Login />;
+    }
+    else if (window.location.href ===process.env.REACT_APP_CLIENT_URL +  "/search")
+      return <Search />;
+    else if (
+      window.location.href === process.env.REACT_APP_CLIENT_URL +  "/collection/playlists"
+    )
+      return (
+        <div>
+          <Library />
+        </div>
+      );
+    else if (
+      window.location.href === process.env.REACT_APP_CLIENT_URL + "/collection/podcasts"
+    )
+      return <Podcasts />;
+    else if (
+      window.location.href === process.env.REACT_APP_CLIENT_URL + "/collection/artists"
+    )
+      return <Artists />;
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/collection/albums")
+      return <Albums />;
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/collection/tracks")
+      return <LikedSongs />;
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/account")
+ {       this.props.setShowSideBar(false)
+        
+        return (      
+          <div style={{ background: "Black", paddingRight: "2000px" }}>
+          <Navbar />
+          </div>
+        );
+      }
+    else if (window.location.href === "http://localhost:3000/"){
+      this.props.setShowSideBar(false)
+      this.props.setShowAcountSideBar(false)
 
-    if (window.location.href === "http://localhost:3000/Home")
+      return (
+        <div style={{ background: "white", paddingRight: "200px" }}>
+          <Img />
+          <Loginform />
+        </div>
+      );
+    }
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/page"){
+    this.props.setShowSideBar(false);
+      return (
+        <div style={{ background: "white", paddingRight: "120px" }}>
+          <Img />
+          <Forgot />
+        </div>
+      );}
+/*     else if (window.location.href === "http://localhost:3000/amer-mounib")
+      return <Amer />; */
+      
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/amr-diab")
+      return <ArtistPage />;
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL +  "/Home")
+      return <Sidebar />;
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/signup")
+    {        this.props.setShowSideBar(false)
+      console.log(window.location.href)
+      console.log(process.env.REACT_APP_CLIENT_URL)
+
+      
+      return (      
+        <div style={{ background: "white", paddingRight: "200px" }}>
+          <Img />
+          <SignupForm />
+        </div>
+      );
+    }
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL +  "/amr-diab/overview")
+      return (
+        <div>
+          <ArtistPage />
+        </div>
+      );
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/amr-diab/about")
+      return (
+        <div>
+          <ArtistPage />
+        </div>
+      );
+    else if (
+      window.location.href === process.env.REACT_APP_CLIENT_URL + "/amr-diab/related-artists"
+    )
+      return <ArtistPage />;
+    else if (
+      window.location.href === process.env.REACT_APP_CLIENT_URL + "/Premium/Credentials"
+    ) {
+      this.props.setShowSideBar(false);
+      this.props.setShowPageContent(false);
+      this.props.setPremiumContentHeight("100vh");
+      return <h></h>; //<div style={{ height: 0, width:0}} />;
+    } else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/Premium") {
+      this.props.setShowSideBar(false);
+      this.props.setShowPageContent(false);
+      this.props.setPremiumContentHeight("0");
+      return <h></h>; //<div style={{ height: 0, width:0}} />;
+
+    }
+    else if(window.location.href === process.env.REACT_APP_CLIENT_URL + "/EditProfile" ){
+      this.props.setShowSideBar(false);
+      //this.props.setShowAcountSideBar(true)
+      return( <div style={{ background: "white", paddingRight: "100px" , marginTop:"120px" }}><EditProfile /></div> );
+    }
+    else if(window.location.href === process.env.REACT_APP_CLIENT_URL + "/AccountoverView" ){
+      this.props.setShowSideBar(false);
+      return ( <div style={{ background: "white", paddingRight: "100px" , marginTop:"120px" }}> <Accountoverview /></div>);
+    }
+    else if(window.location.href === process.env.REACT_APP_CLIENT_URL + "/Recover" ){
+      this.props.setShowSideBar(false);
+      return ( <div style={{ background: "white", paddingRight: "100px" , marginTop:"120px"}}> <Recover /></div>);
+    }
+
+
+    
+    
+    else {
+      return <Error />;
+    }
+  }
+}
+
+export default PageContent;
+
+/** 
+commented old code for refernce
+if (window.location.href === "http://localhost:3000/Home")
       return (
         <div>
           <HomeContent />
@@ -97,7 +233,7 @@ class PageContent extends Component {
         </div>
       );}
 /*     else if (window.location.href === "http://localhost:3000/amer-mounib")
-      return <Amer />; */
+      return <Amer />; //this part was commented
       
     else if (window.location.href === "http://localhost:3000/amr-diab")
       return <ArtistPage />;
@@ -167,3 +303,4 @@ class PageContent extends Component {
 }
 
 export default PageContent;
+*/

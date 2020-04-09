@@ -25,7 +25,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
 function App() {
-  console.log(process.env.URL)
 
   const [showSideBar, setShowSideBar] = React.useState(true);
   const [showPageContent, setShowPageContent] = React.useState(true);

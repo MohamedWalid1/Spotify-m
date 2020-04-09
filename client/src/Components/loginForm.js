@@ -73,12 +73,15 @@ this.setState({user:resp})
 
     this.setState({ nameError: "", passwordError: "" });
     e.preventDefault();
+
     if (this.isValid()) {
       //-------------------------------------------------------
         const url=process.env.REACT_APP_URL + "/users/login";
+
         let data=(this.state.user)
-        console.log(data)
-        fetch(url,{
+        console.log(this.state.user)
+
+        fetch(url, {mode: 'cors'},{
         method:'POST',
         headers:{
         'Accept':'application/json',
@@ -89,7 +92,6 @@ this.setState({user:resp})
      resultss.json().then((resp) =>{
     console.warn(resp)
     var h =resp.token;
-    console.log(h)
    
     localStorage.setItem('tokenfromlogin',h)
     this.setState({
