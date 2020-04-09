@@ -2,7 +2,7 @@
 
 
 
-##to run the client side:
+## to run the client side:
 cd to client then write
 ```
 -npm install
@@ -12,7 +12,7 @@ cd to client then write
 - REACT_APP_URL="http://localhost:3003" npm start
 ```
 
-##to run the server:
+## to run the server:
 -cd to api then write
 ```
 -npm install
