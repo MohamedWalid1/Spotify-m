@@ -77,7 +77,7 @@ class PageContent extends Component {
           </div>
         );
       }
-    else if (window.location.href === "http://localhost:3000/"){
+    else if (window.location.href === process.env.REACT_APP_CLIENT_URL + "/"){
       this.props.setShowSideBar(false)
       this.props.setShowAcountSideBar(false)
 
