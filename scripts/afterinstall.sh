@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cp home/ubuntu/.env /home/ubuntu/Spotify-m/client
 cd /home/ubuntu/Spotify-m/client
 npm install
 npm rebuild
