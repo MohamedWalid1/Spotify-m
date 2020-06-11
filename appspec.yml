@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /home/ubuntu/Spotify-m
+
+permissions:
+  - object: /
+    pattern: "**"
+    owner: ubuntu
+hooks:
+  ApplicationStop:
+    - location: /scripts/appstop.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: /scripts/afterinstall.sh
+      timeout: 300
+      runas: root

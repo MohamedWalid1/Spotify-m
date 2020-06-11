@@ -47,7 +47,7 @@ this.setState({user:resp})
   isValid() {
     if (this.state.identifier.length < 1 && this.state.password.length < 1) {
       this.setState({
-        nameError: "Please enter your Spotify username or email address.",
+        nameError: "Please enter your Spotify username.",
         passwordError: "Please enter your password."
       });
     } else if (
