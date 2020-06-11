@@ -1,16 +1,17 @@
 language: node_js
-env:
-  CI: ''
-before_script:
-- cd /client  
-- npm install
-- cd ../api
-- npm install
 node_js:
 - 12
+
+env:
+  CI: ''
+  - TEST_DIR=client
+  - TEST_DIR=api
+  - REACT_APP_CLIENT_URL=http://localhost:3000
+  - REACT_APP_URL=http://localhost:3003
+
+before_script:
+  cd $TEST_DIR && npm install 
+
 script:
-- cd /client
-- npm run build:client
-- cd ../api
-- npm run build:server
+- cd /client && npm run build:client && cd ../api && npm run build:server
 
